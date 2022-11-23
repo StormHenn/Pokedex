@@ -25,4 +25,12 @@ export class PokelistService {
             { params }
         );
     }
+
+    // Create a function that can get a single pokemon
+    // Will need to accept a URL as an argument
+
+    // Create a pokemon-details component in features to display the data
+    // OPTION 1: have route like /pokelist/:name then pull name from route and make request
+    // OPTION 2: Accept URL and make request
+
 }
