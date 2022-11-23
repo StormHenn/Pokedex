@@ -1,0 +1,11 @@
+.pokecard {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+
+    &_name {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+}

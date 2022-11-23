@@ -1,0 +1,10 @@
+// Fonts import
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+// Setting bootstrap variables
+$primary: #d33e2c;
+$secondary: #222;
+
+$enable-negative-margins: true;
+
+@import "./scss";

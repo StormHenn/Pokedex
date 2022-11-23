@@ -1,0 +1,25 @@
+.custom_nav {
+    padding: 1rem;
+    background-color: $primary;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+
+    &_search {
+        flex-grow: 2;
+        padding: 0 0.5rem;
+    }
+
+    &_logo {
+        .logo_icon {
+            display: block;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+    }
+}

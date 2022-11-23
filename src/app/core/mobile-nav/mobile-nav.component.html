@@ -1,0 +1,10 @@
+<nav class="mobile_nav">
+    <ul class="mobile_nav_list">
+        <li class="mobile_nav_list_item" *ngFor="let menu_item of menu_items">
+            <a [routerLink]="['/', menu_item.link]" class="mobile_nav_list_item_link">
+                <i [class]="menu_item.icon"></i>
+                {{ menu_item.name }}
+            </a>
+        </li>
+    </ul>
+</nav>
